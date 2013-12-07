@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 				'src/client/js/vendor/zepto.js'
 			]
 		},
-		connectServerPort = process.env.PORT || 4863;
+		connectServerPort = process.env.PORT || 8080;
 
 	// Load grunt plugins
 	gruntPlugins.forEach(function (gruntPluginName) {
@@ -44,7 +44,7 @@ module.exports = function (grunt) {
 					options: {
 						hostname: '*',
 						port: connectServerPort,
-						base: 'src',
+						base: 'src/client',
 						keepalive: true
 					}
 				}
