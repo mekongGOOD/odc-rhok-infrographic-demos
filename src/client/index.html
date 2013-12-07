@@ -8,8 +8,9 @@
 	<meta name="viewport" content="width=device-width">
 	<title>RHOK Visualisation Toolkit</title>
 
-	<link rel="stylesheet" href="stylesheets/app.css">
-	<script src="javascripts/min/vendor/custom.modernizr.js"></script>
+	<link rel="stylesheet" href="css/app.css">
+	<script src="js_min/vendor/custom.modernizr.js"></script>
+	<script src="js_min/vendor/jquery.js"></script>
 </head>
 <body>
 
@@ -30,6 +31,31 @@ exceptions: foundation core class names like "row", "columns", etc...
 
 	<div class="viz_wrapper">
 		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+		<script type="text/javascript">
+			$(function () {
+				$('#container').highcharts({
+					chart: {
+						type: 'column'
+					},
+					title: {
+						text: 'Cambodia Literacy History'
+					},
+					xAxis: {
+						categories: ['1998', '2008']
+					},
+					yAxis: {
+						title: {
+							text: 'Overall Literacy ratio'
+						}
+					},
+					series: [{
+						name: 'Cambodia Literacy History',
+						data: [50, 100]
+					}]
+				});
+			});
+		</script>
 	</div>
 
 <!--@TODO Use minified file path after for PROD-->
@@ -40,7 +66,6 @@ exceptions: foundation core class names like "row", "columns", etc...
 </script>
 -->
 
-<script src="javascripts/src/vendor/jquery.js"></script>
 
 <!--
 <script src="javascripts/src/vendor/foundation/foundation.js"></script>
@@ -63,13 +88,13 @@ exceptions: foundation core class names like "row", "columns", etc...
 
 <!--
 -->
-<script src="javascripts/src/app/main.js"></script>
+<script src="js/app/main.js"></script>
 
 <script src="//code.highcharts.com/highcharts.js"></script>
 <script src="//code.highcharts.com/modules/exporting.js"></script>
 
 <!--External-->
-<script src="javascripts/src/vendor/live.js"></script>
+<script src="js/vendor/live.js"></script>
 
 <!--Foundation setup
 <script type="text/javascript">
