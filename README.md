@@ -1,8 +1,10 @@
-# Task description
+# odc-hrok-front-end
+
+## Task description
 
 TBD
 
-# Setup instructions
+## Setup instructions
 
 From the root folder of this repository:
 
@@ -14,7 +16,7 @@ npm install
 # Open your browser on http://localhost:2048/
 ````
 
-# Dev instructions
+## Dev instructions
 
 ````shell
 # Start server in debug mode

@@ -107,3 +107,19 @@ Session.vim
 # D.HSC: Do not ignore 'tags' because that's where the JSP custom tags are
 # tags 
 # TAGS
+
+#################
+# From github
+#################
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
