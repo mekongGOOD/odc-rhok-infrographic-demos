@@ -16,7 +16,7 @@ gem 'bundler'
 gem 'chunky_png'
 gem 'compass' # compass is to sass what jQuery is to javascript: a good framework
 gem 'sass-globbing' # for easier sass includes
-gem 'zurb-foundation'
+# gem 'zurb-foundation'
 
 # Not enabled by default. Install it manually if you want to improve the sprite image generation speed of Compass
 # install the ruby devkit to use this one below 
