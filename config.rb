@@ -1,15 +1,15 @@
 # Compass config file
 
 # Require any additional compass plugins here.
-require 'zurb-foundation'
+# require 'zurb-foundation'
 require 'sass-globbing'
 
 # Set this to the root of your project when deployed:
 #http_path = "/"
-css_dir = "public/stylesheets"
-sass_dir = "public/sass"
-images_dir = "public/images"
-javascripts_dir = "public/javascripts/" + ((environment == :production) ? "min" : "src")
+css_dir = "src/client/css"
+sass_dir = "src/client/sass"
+images_dir = "src/client/img"
+javascripts_dir = "src/client/js" + ((environment == :production) ? "_min" : "")
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

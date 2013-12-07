@@ -13,15 +13,15 @@ module.exports = function (grunt) {
 			null
 		],
 		uglifyMapping = {
-			'public/javascripts/min/vendor/custom.modernizr.js': 'public/javascripts/src/vendor/custom.modernizr.js',
-			'public/javascripts/min/app/main.js': [
-				'public/javascripts/src/app/main.js'
+			'src/client/js_min/vendor/custom.modernizr.js': 'src/client/js/vendor/custom.modernizr.js',
+			'src/client/js_min/app/main.js': [
+				'src/client/js/app/main.js'
 			],
-			'public/javascripts/min/vendor/jquery.js': [
-				'public/javascripts/src/vendor/jquery.js'
+			'src/client/js_min/vendor/jquery.js': [
+				'src/client/js/vendor/jquery.js'
 			],
-			'public/javascripts/min/vendor/zepto.js': [
-				'public/javascripts/src/vendor/zepto.js'
+			'src/client/js_min/vendor/zepto.js': [
+				'src/client/js/vendor/zepto.js'
 			]
 		},
 		connectServerPort = process.env.PORT || 4863;
@@ -44,34 +44,10 @@ module.exports = function (grunt) {
 					options: {
 						hostname: '*',
 						port: connectServerPort,
-						base: 'public',
-						keepalive: true,
-						middleware: function (connect, options) {
-							var config = [ // Serve static files.
-								connect.static(options.base),
-								// Make empty directories browsable.
-								connect.directory(options.base)
-							];
-							var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest;
-							config.unshift(proxy);
-
-							return config;
-						}
+						base: 'src',
+						keepalive: true
 					}
-				},
-				proxies: [
-					{ // Allows proxying of the node API server through grunt-contrib-connect
-						context: '/api',
-						host: 'localhost',
-						port: 1337,
-						https: false,
-						changeOrigin: false,
-						xforward: false,
-						rewrite: {
-							'^/api': ''
-						}
-					}
-				]
+				}
 			}, // end of connect
 
 			// SASS compilation task
@@ -94,8 +70,8 @@ module.exports = function (grunt) {
 
 			// Delete generated folders/files
 			clean: {
-				js: 'public/javascripts/min/**/*.*',
-				css: 'public/stylesheets/*.css'
+				js: 'src/client/js_min/**/*.*',
+				css: 'src/client/css/*.css'
 			},
 
 			uglify: {
@@ -166,25 +142,25 @@ module.exports = function (grunt) {
 			// Watch folders for file changes and run target tasks
 			watch: {
 				js_debug: {
-					files: 'public/javascripts/src/**/*.js',
+					files: 'src/client/js/**/*.js',
 					tasks: [
 						'uglify:debug'
 					]
 				},
 				js_prod: {
-					files: 'public/javascripts/src/**/*.js',
+					files: 'src/client/js/**/*.js',
 					tasks: [
 						'uglify:prod'
 					]
 				},
 				compass_debug: {
-					files: 'public/sass/**/*.scss',
+					files: 'src/client/sass/**/*.scss',
 					tasks: [
 						'compass:debug'
 					]
 				},
 				compass_prod: {
-					files: 'public/sass/**/*.scss',
+					files: 'src/client/sass/**/*.scss',
 					tasks: [
 						'compass:prod'
 					]
