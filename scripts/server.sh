@@ -26,7 +26,4 @@ else
 	then
 		grunt build:debug run -v &
 	fi
-
-	# DEBUG
-	node src/server/serverApp.js
 fi
