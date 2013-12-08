@@ -41,12 +41,12 @@ npm install
 #
 # You can watch source file changes with:
 ./scripts/watch_source.sh debug
-
+````
 
 
 
 <hr/>
-#Developing This App
+#Applications Developer
 <br/>David Han
 
 #The RHOK Team
