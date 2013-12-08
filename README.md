@@ -1,8 +1,8 @@
-Here are some sample infographics that use the HROK developed [Open Development Cambodia (ODC)](http://www.opendevelopmentcambodia.net/ "") API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
+Here are some sample infographics that use the RHoK developed [Open Development Cambodia (ODC)](http://www.opendevelopmentcambodia.net/ "") API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
 
 These inforgraphics were developed using the [highcharts.js](http://www.highcharts.com/ "") javascript ibrary.
 
-This code as part of RHoK Sydney Event for Open Development Cambodia over a weekend event on 7 & 8 December 2013... in Sydney Australia.
+This code as part of [RHoK Sydney](http://rhoksydney.org/ "") Event for Open Development Cambodia over a weekend event on 7 & 8 December 2013... in Sydney Australia.
 
 The Random Hacks of Kindess (RHoK) url is [http://www.rhoksydney.org/](http://www.rhoksydney.org/ "").
 
