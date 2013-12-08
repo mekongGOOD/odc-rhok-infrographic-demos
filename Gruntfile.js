@@ -15,6 +15,7 @@ module.exports = function (grunt) {
 		uglifyMapping = {
 			'src/client/js_min/vendor/custom.modernizr.js': 'src/client/js/vendor/custom.modernizr.js',
 			'src/client/js_min/app/main.js': [
+				'src/client/js/vendor/underscore.js',
 				'src/client/js/app/main.js'
 			],
 			'src/client/js_min/vendor/jquery.js': [
