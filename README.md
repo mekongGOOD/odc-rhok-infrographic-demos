@@ -1,8 +1,10 @@
 #Introduction
 
-Here are some sample infographics that use the HROK developed ODC API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). These inforgrpahics were developed using the [highcharts.js](http://www.highcharts.com/ "") javascript ibrary,
+Here are some sample infographics that use the HROK developed ODC API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
 
-This code/document as part of HROK Sydney Event for Open Development Cambodia over a weekend event on 7 & 8 December 2013.
+These inforgraphics were developed using the [highcharts.js](http://www.highcharts.com/ "") javascript ibrary,
+
+This code as part of HROK Sydney Event for Open Development Cambodia over a weekend event on 7 & 8 December 2013.
 <br/>
 <hr/>
 
