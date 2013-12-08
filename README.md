@@ -12,6 +12,7 @@ RHoK is a global hackathon that takes part twice a year. RHoK bringstogether tho
 
 RHoK Sydney events encourage participants to develop solutions that can be used, in particular, to help people prepare for and respond to natural disasters.
 <br/>
+<br/>
 ![odc.png](_markdown_images/odc.png "")
 ##Open Development Cambodia
 Open Development Cambodia (ODC) is an non-prfot organisation based in Phnom Penh Cambodia. ODC is an **Open Data** website, the first of its kind in Southeast Asia. 
