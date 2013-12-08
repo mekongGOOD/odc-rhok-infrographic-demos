@@ -52,7 +52,7 @@ npm install
 
 <hr/>
 ##Application Developer
-<br/>**David Han**
+**David Han**
 
 ##The RHOK Team
 
