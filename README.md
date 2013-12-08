@@ -1,4 +1,4 @@
-Here are some sample infographics that use the HROK developed ODC API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
+Here are some sample infographics that use the HROK developed [Open Development Cambodia (ODC)](http://www.opendevelopmentcambodia.net/ "") API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
 
 These inforgraphics were developed using the [highcharts.js](http://www.highcharts.com/ "") javascript ibrary.
 
