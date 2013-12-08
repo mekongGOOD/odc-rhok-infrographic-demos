@@ -6,5 +6,5 @@ echo "------------------------------------"
 #pushd ../../odc-hrok-api/scripts
 #./server.sh &
 #popd
-./server.sh &
-./watch_source.sh
+./server.sh debug &
+./watch_source.sh debug
