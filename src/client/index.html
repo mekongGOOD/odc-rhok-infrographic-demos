@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>RHOK Visualisation Toolkit</title>
+
+	<link rel="stylesheet" href="css/app.css">
+	<script src="js_min/vendor/custom.modernizr.js"></script>
+	<script src="js_min/vendor/jquery.js"></script>
+</head>
+<body>
+
+<!--
+My BEM naming conventions:
+
+blockName
+blockName__modifier
+blockName__modifier_value
+blockName_elementName
+blockName_elementName__modifier
+blockName_elementName__modifier_value
+
+See http://bem.info/method/definitions/
+
+exceptions: foundation core class names like "row", "columns", etc...
+-->
+
+	<div class="viz_wrapper">
+		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	</div>
+
+<!--@TODO Use minified file path after for PROD-->
+<!--<script type="text/javascript">
+	document.write('<script type="text/javascript" src=' +
+		('__proto__' in {} ? 'javascripts/src/vendor/zepto' : 'javascripts/vendor/jquery') +
+		'.js><\/script>')
+</script>
+-->
+
+
+<!--
+<script src="javascripts/src/vendor/foundation/foundation.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.abide.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.alerts.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.clearing.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.cookie.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.interchange.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.joyride.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.magellan.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.orbit.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.placeholder.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.reveal.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.section.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.tooltips.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.forms.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.dropdown.js"></script>
+<script src="javascripts/src/vendor/foundation/foundation.topbar.js"></script>
+-->
+
+
+<!--External-->
+<script src="//code.highcharts.com/highcharts.js"></script>
+<!-- <script src="//code.highcharts.com/modules/exporting.js"></script> -->
+<script src="js/vendor/live.js"></script>
+
+<!--
+-->
+<script src="js/app/main.js"></script>
+
+<!--Foundation setup
+<script type="text/javascript">
+	$(document).foundation();
+</script>
+-->
+
+</body>
+</html>

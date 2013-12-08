@@ -1,0 +1,8 @@
+/*
+Create basic tempoary appearance of a block
+*/
+@mixin scaffoldBlock {
+	border: 1px dashed red;
+	background: #eee;
+	padding: .25%;
+}
