@@ -65,7 +65,7 @@ npm install
 	
 **Developers**
 <br/>Laurie Tuc
-<br/>Tri Pham
+<br/>Tri-Hanh Pham
 	
 **Project Leader**
 <br/>Ian Scrivener
