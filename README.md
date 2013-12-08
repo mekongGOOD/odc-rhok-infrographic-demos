@@ -1,3 +1,5 @@
+##Introduction
+
 Here are some sample infographics that use the RHoK developed [Open Development Cambodia (ODC)](http://www.opendevelopmentcambodia.net/ "") API ([https://github.com/mekongGOOD/odc-hrok-api](https://github.com/mekongGOOD/odc-hrok-api "")). 
 
 These inforgraphics were developed using the [highcharts.js](http://www.highcharts.com/ "") javascript ibrary.
@@ -49,10 +51,10 @@ npm install
 
 
 <hr/>
-#Application Developer
+##Application Developer
 <br/>**David Han**
 
-#The RHOK Team
+##The RHOK Team
 
     
 **Analysts/Consultants**
