@@ -52,7 +52,7 @@ npm install
 
 <hr/>
 ##Application Developer
-**David HAN SZE CHUEN**
+**David Han Sze Chuen**
 
 ##The RHOK Team
 
@@ -64,7 +64,7 @@ npm install
 <br/>Mark Collins
 	
 **Developers**
-<br/>Laurie Tuc
+<br/>Laurie Tuch
 <br/>Tri-Hanh Pham
 	
 **Project Leader**
