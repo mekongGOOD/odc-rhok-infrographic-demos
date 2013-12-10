@@ -6,8 +6,8 @@ bin/*
 *.class
 ./target
 
-public/javascripts/min
-public/stylesheets/*.css
+src/client/css/*
+src/client/js_min/*
 
 ########
 # Node #
