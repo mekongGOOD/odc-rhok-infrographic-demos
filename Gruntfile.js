@@ -20,9 +20,6 @@ module.exports = function (grunt) {
 			],
 			'src/client/js_min/vendor/jquery.js': [
 				'src/client/js/vendor/jquery.js'
-			],
-			'src/client/js_min/vendor/zepto.js': [
-				'src/client/js/vendor/zepto.js'
 			]
 		},
 		connectServerPort = process.env.PORT || 8080;
