@@ -8,7 +8,7 @@ This code as part of [RHoK Sydney](http://rhoksydney.org/ "") Event for Open Dev
 
 The Random Hacks of Kindess (RHoK) url is [http://www.rhoksydney.org/](http://www.rhoksydney.org/ "").
 
-<br/>
+
 <hr/>
 
 ![rhok.png](_markdown_images/rhok.png "")
@@ -51,22 +51,23 @@ npm install
 
 
 <hr/>
-##Application Developer
+##Infographic Developer
 **David Han Sze Chuen**
 
-##The RHOK Team
+##**The RHOK Team**
 
     
 **Analysts/Consultants**
-<br/>Josh Lette
-<br/>Bronwyn Dennis
-<br/>David Han
-<br/>Mark Collins
+<br/>&nbsp;&nbsp;Josh Lette
+<br/>&nbsp;&nbsp;Bronwyn Dennis
+<br/>&nbsp;&nbsp;David Han Sze Chuen
 	
 **Developers**
-<br/>Laurie Tuch
-<br/>Tri-Hanh Pham
+<br/>&nbsp;&nbsp;Laurie Tuch
+<br/>&nbsp;&nbsp;Tri-Hanh Pham
+<br/>&nbsp;&nbsp;David Han Sze Chuen
+<br/>&nbsp;&nbsp;Ian Scrivener
 	
 **Project Leader**
-<br/>Ian Scrivener
+<br/>&nbsp;&nbsp;Ian Scrivener
 ````
