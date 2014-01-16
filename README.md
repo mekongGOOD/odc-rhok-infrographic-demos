@@ -49,7 +49,7 @@ npm install
 ````
 
 
-
+<br/>
 <hr/>
 ##Infographic Developer
 **David Han Sze Chuen**
